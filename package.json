@@ -1,0 +1,40 @@
+{
+	"name": "repo-name",
+	"version": "0.1.0",
+	"description": "Project description here.",
+	"main": "js/main",
+	"types": ".d.ts/main",
+	"files": [
+		".d.ts/**",
+		"js/**",
+		"ts/**",
+		"license.md",
+		"package.json",
+		"readme.md"
+	],
+	"scripts": {
+		"build": "gulp rebuild",
+		"test": "gulp rebuild && jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/T99/repo-name.git"
+	},
+	"keywords": [],
+	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/T99/repo-name/issues"
+	},
+	"homepage": "https://github.com/T99/repo-name#readme",
+	"devDependencies": {
+		"typescript": "latest",
+		"@types/jest": "latest",
+		"del": "latest",
+		"gulp": "latest",
+		"gulp-sourcemaps": "latest",
+		"gulp-typescript": "latest",
+		"gulp-uglify-es": "latest",
+		"jest": "latest"
+	}
+}
