@@ -1,5 +1,0 @@
-.gitignore
-.idea/
-ts/tests/coverage
-ts/tslint.json
-node_modules/

@@ -1,7 +1,10 @@
 {
-	"name": "repo-name",
+	"name": "@jsdsl/locking-queue",
 	"version": "0.1.0",
-	"description": "Project description here.",
+	"description": "A mutex solution as an alternative to Promises/async+await.",
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"files": [
@@ -18,15 +21,23 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/T99/repo-name.git"
+		"url": "git+https://github.com/jsdsl/locking-queue.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"adt",
+		"data-structure",
+		"mutex"
+	],
 	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/T99/repo-name/issues"
+		"url": "https://github.com/jsdsl/locking-queue/issues"
 	},
-	"homepage": "https://github.com/T99/repo-name#readme",
+	"homepage": "https://github.com/jsdsl/locking-queue#readme",
+	"dependencies": {
+		"@jsdsl/doubly-linked-list": "^0.1.1",
+		"avents": "^0.1.0"
+	},
 	"devDependencies": {
 		"typescript": "latest",
 		"@types/jest": "latest",

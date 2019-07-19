@@ -1,7 +1,7 @@
 /*
  *	Created by Trevor Sears <trevorsears.main@gmail.com>.
  *	10:53 PM -- June 11th, 2019.
- *	Project: repo-name
+ *	Project: @jsdsl/locking-queue
  */
 
 /**
@@ -12,4 +12,6 @@
  * @since v0.1.0
  */
 
-// export { ClassName } from "./class-location";
+export { LockingQueue } from "./locking-queue";
+export { LockingQueueNode } from "./locking-queue-node";
+export { Lock } from "./lock";

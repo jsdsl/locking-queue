@@ -1,7 +1,7 @@
 /*
  *	Created by Trevor Sears <trevorsears.main@gmail.com>.
  *	8:48 PM -- June 16th, 2019.
- *	Project: repo-name
+ *	Project: @jsdsl/locking-queue
  */
 
 const gulp = require("gulp");
