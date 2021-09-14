@@ -16,11 +16,14 @@
 		"url": "git+https://github.com/jsdsl/locking-queue.git"
 	},
 	"keywords": [
-		"adt",
+		"queue",
+		"fifo",
+		"mutex",
 		"data-structure",
-		"mutex"
+		"adt",
+		"typescript"
 	],
-	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
+	"author": "Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
 		"url": "https://github.com/jsdsl/locking-queue/issues"
